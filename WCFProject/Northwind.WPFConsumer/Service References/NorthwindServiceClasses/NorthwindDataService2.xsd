@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Northwind.WCFContracts.DataContract" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Northwind.WCFContracts.DataContract" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="NorthwindEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmployeeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomePhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NorthwindEmployee" nillable="true" type="tns:NorthwindEmployee" />
+  <xs:complexType name="ArrayOfNorthwindEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NorthwindEmployee" nillable="true" type="tns:NorthwindEmployee" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNorthwindEmployee" nillable="true" type="tns:ArrayOfNorthwindEmployee" />
+  <xs:complexType name="NorthwindProduct">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitPrice" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NorthwindProduct" nillable="true" type="tns:NorthwindProduct" />
+  <xs:complexType name="ArrayOfNorthwindProduct">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NorthwindProduct" nillable="true" type="tns:NorthwindProduct" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNorthwindProduct" nillable="true" type="tns:ArrayOfNorthwindProduct" />
+</xs:schema>

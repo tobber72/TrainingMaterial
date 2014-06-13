@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL Projects", "DAL Projects", "{FC1EF3C5-783D-48CD-872C-2A54981066CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL Projects", "BLL Projects", "{551CA8CA-BAF7-4F13-A67B-C7C4D9E63E43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer Projects", "Presentation Layer Projects", "{88AB0A6B-061B-4C11-90F4-13FFD8931A02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF Projects", "WCF Projects", "{CE5ABA23-391B-4508-AFA5-E2F1B15435E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WCFContracts", "Northwind.WCFContracts\Northwind.WCFContracts.csproj", "{4735DD68-53DF-4553-9E8C-5567272D4C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WCFDataService", "Northwind.WCFDataService\Northwind.WCFDataService.csproj", "{4BB03085-3806-424B-A800-CD04B61CD055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Model Projects", "Domain Model Projects", "{A8CE0F75-9C38-4198-A6E7-A72E42D682C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DomainModels", "Northwind.DomainModels\Northwind.DomainModels.csproj", "{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DAL", "Northwind.DAL\Northwind.DAL.csproj", "{40908777-80B5-4355-A6B7-226614476959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.BLL", "Northwind.BLL\Northwind.BLL.csproj", "{0B048567-A1DA-4708-ACA1-B453BA22820C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF Host Projects", "WCF Host Projects", "{886BEEAE-3A2D-4BBE-9758-8280D8EE6798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF Contract Projects", "WCF Contract Projects", "{7E6D4FB1-0600-4E57-95B8-1E8E168BF2B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF Service Projects", "WCF Service Projects", "{950A0C30-CC6A-4253-86BA-C3C9794FB1AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middle Tier Projects", "Middle Tier Projects", "{F542C27D-E2AB-43D9-A5E7-BA4C51DD08B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindIISServiceHost", "NorthwindIISServiceHost\NorthwindIISServiceHost.csproj", "{21476BCA-F334-4A7D-BC5D-1D869C247362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WPFConsumer", "Northwind.WPFConsumer\Northwind.WPFConsumer.csproj", "{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21476BCA-F334-4A7D-BC5D-1D869C247362} = {21476BCA-F334-4A7D-BC5D-1D869C247362}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsap.localhost.com:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Northwind.BLL\\Northwind.BLL.csproj
+		SccProjectTopLevelParentUniqueName1 = WCFProjects.sln
+		SccProjectName1 = Northwind.BLL
+		SccLocalPath1 = Northwind.BLL
+		SccProjectUniqueName2 = Northwind.DAL\\Northwind.DAL.csproj
+		SccProjectTopLevelParentUniqueName2 = WCFProjects.sln
+		SccProjectName2 = Northwind.DAL
+		SccLocalPath2 = Northwind.DAL
+		SccProjectUniqueName3 = Northwind.DomainModels\\Northwind.DomainModels.csproj
+		SccProjectTopLevelParentUniqueName3 = WCFProjects.sln
+		SccProjectName3 = Northwind.DomainModels
+		SccLocalPath3 = Northwind.DomainModels
+		SccProjectUniqueName4 = Northwind.WCFContracts\\Northwind.WCFContracts.csproj
+		SccProjectTopLevelParentUniqueName4 = WCFProjects.sln
+		SccProjectName4 = Northwind.WCFContracts
+		SccLocalPath4 = Northwind.WCFContracts
+		SccProjectUniqueName5 = Northwind.WCFDataService\\Northwind.WCFDataService.csproj
+		SccProjectTopLevelParentUniqueName5 = WCFProjects.sln
+		SccProjectName5 = Northwind.WCFDataService
+		SccLocalPath5 = Northwind.WCFDataService
+		SccProjectUniqueName6 = Northwind.WPFConsumer\\Northwind.WPFConsumer.csproj
+		SccProjectTopLevelParentUniqueName6 = WCFProjects.sln
+		SccProjectName6 = Northwind.WPFConsumer
+		SccLocalPath6 = Northwind.WPFConsumer
+		SccProjectUniqueName7 = NorthwindIISServiceHost\\NorthwindIISServiceHost.csproj
+		SccProjectTopLevelParentUniqueName7 = WCFProjects.sln
+		SccProjectName7 = NorthwindIISServiceHost
+		SccLocalPath7 = NorthwindIISServiceHost
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4735DD68-53DF-4553-9E8C-5567272D4C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4735DD68-53DF-4553-9E8C-5567272D4C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4735DD68-53DF-4553-9E8C-5567272D4C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4735DD68-53DF-4553-9E8C-5567272D4C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB03085-3806-424B-A800-CD04B61CD055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB03085-3806-424B-A800-CD04B61CD055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB03085-3806-424B-A800-CD04B61CD055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB03085-3806-424B-A800-CD04B61CD055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40908777-80B5-4355-A6B7-226614476959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40908777-80B5-4355-A6B7-226614476959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40908777-80B5-4355-A6B7-226614476959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40908777-80B5-4355-A6B7-226614476959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B048567-A1DA-4708-ACA1-B453BA22820C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B048567-A1DA-4708-ACA1-B453BA22820C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B048567-A1DA-4708-ACA1-B453BA22820C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B048567-A1DA-4708-ACA1-B453BA22820C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21476BCA-F334-4A7D-BC5D-1D869C247362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21476BCA-F334-4A7D-BC5D-1D869C247362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21476BCA-F334-4A7D-BC5D-1D869C247362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21476BCA-F334-4A7D-BC5D-1D869C247362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{551CA8CA-BAF7-4F13-A67B-C7C4D9E63E43} = {F542C27D-E2AB-43D9-A5E7-BA4C51DD08B6}
+		{A8CE0F75-9C38-4198-A6E7-A72E42D682C8} = {F542C27D-E2AB-43D9-A5E7-BA4C51DD08B6}
+		{FC1EF3C5-783D-48CD-872C-2A54981066CB} = {F542C27D-E2AB-43D9-A5E7-BA4C51DD08B6}
+		{0B048567-A1DA-4708-ACA1-B453BA22820C} = {551CA8CA-BAF7-4F13-A67B-C7C4D9E63E43}
+		{CAD3ED78-0FEE-441E-A67D-8CF0E4E4BED6} = {88AB0A6B-061B-4C11-90F4-13FFD8931A02}
+		{7E6D4FB1-0600-4E57-95B8-1E8E168BF2B2} = {CE5ABA23-391B-4508-AFA5-E2F1B15435E8}
+		{950A0C30-CC6A-4253-86BA-C3C9794FB1AD} = {CE5ABA23-391B-4508-AFA5-E2F1B15435E8}
+		{886BEEAE-3A2D-4BBE-9758-8280D8EE6798} = {CE5ABA23-391B-4508-AFA5-E2F1B15435E8}
+		{4735DD68-53DF-4553-9E8C-5567272D4C14} = {7E6D4FB1-0600-4E57-95B8-1E8E168BF2B2}
+		{4BB03085-3806-424B-A800-CD04B61CD055} = {950A0C30-CC6A-4253-86BA-C3C9794FB1AD}
+		{F49D86F5-B54B-42F2-B9DF-0869B10EC5BC} = {A8CE0F75-9C38-4198-A6E7-A72E42D682C8}
+		{40908777-80B5-4355-A6B7-226614476959} = {FC1EF3C5-783D-48CD-872C-2A54981066CB}
+		{21476BCA-F334-4A7D-BC5D-1D869C247362} = {886BEEAE-3A2D-4BBE-9758-8280D8EE6798}
+	EndGlobalSection
+EndGlobal
