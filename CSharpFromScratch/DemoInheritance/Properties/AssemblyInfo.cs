@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DemoInheritance")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Catholic Health Initiative")]
+[assembly: AssemblyCompany(" ")]
 [assembly: AssemblyProduct("DemoInheritance")]
-[assembly: AssemblyCopyright("Copyright © Catholic Health Initiative 2014")]
+[assembly: AssemblyCopyright(" ")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
