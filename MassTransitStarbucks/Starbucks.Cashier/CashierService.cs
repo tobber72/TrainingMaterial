@@ -19,7 +19,7 @@ namespace Starbucks.Cashier
 	{
 		private IServiceBus _bus;
 		private ISagaRepository<CashierSaga> _sagaRepository;
-		private UnsubscribeAction _unsubscribeAction;
+        private UnsubscribeAction _unsubscribeAction;
 
 		public CashierService(IServiceBus bus, ISagaRepository<CashierSaga> sagaRepository)
 		{
@@ -29,13 +29,13 @@ namespace Starbucks.Cashier
 
 		public void Start()
 		{
-			// ninject doesn't have the brains for this one
-			_unsubscribeAction = _bus.SubscribeSaga(_sagaRepository);
+            //// ninject doesn't have the brains for this one
+            _unsubscribeAction = _bus.SubscribeSaga(_sagaRepository);
 		}
 
 		public void Stop()
 		{
-			_unsubscribeAction();
+            _unsubscribeAction();
 			_bus.Dispose();
 		}
 	}
